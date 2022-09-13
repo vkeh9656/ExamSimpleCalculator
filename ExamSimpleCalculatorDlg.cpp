@@ -168,4 +168,5 @@ void CExamSimpleCalculatorDlg::OnBnClickedButtonBack()
 {
 	int num = GetDlgItemInt(IDC_SHOW_NUM_EDIT);
 	SetDlgItemInt(IDC_SHOW_NUM_EDIT, num / 10);
+	//test text
 }
