@@ -132,7 +132,7 @@ void CExamSimpleCalculatorDlg::OnProcessOp(UINT a_ctrl_id)
 
 void CExamSimpleCalculatorDlg::OnBnClickedButtonClear()
 {
-	SetDlgItemInt(IDC_SHOW_NUM_EDIT, 0);
+	SetDlgItemInt(IDC_SHOW_NUM_EDIT, 1);
 }
 
 
